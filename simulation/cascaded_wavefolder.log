@@ -1,33 +1,45 @@
-Circuit: * C:\Users\cwnou\OneDrive\Documents\Projects\wavefolder\analog\cascaded_wavefolder.asc
+Circuit: * C:\Users\noursec\Documents\personal projects\wavefolder\analog_wavefolder\simulation\cascaded_wavefolder.asc
 
-Direct Newton iteration for .op point succeeded.
+.OP point found by inspection.
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
 Ignoring empty pin current: Ix(u2:1)
 Ignoring empty pin current: Ix(u2:2)
 Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
 Ignoring empty pin current: Ix(u2:1)
 Ignoring empty pin current: Ix(u2:2)
 Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
 
-Date: Mon Jul 25 10:32:55 2022
-Total elapsed time: 0.158 seconds.
+Date: Wed Jul 27 12:23:09 2022
+Total elapsed time: 0.183 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 9337
-traniter = 9332
-tranpoints = 3270
-accept = 2528
-rejected = 742
-matrix size = 32
-fillins = 8
+totiter = 4442
+traniter = 4442
+tranpoints = 1573
+accept = 1383
+rejected = 190
+matrix size = 37
+fillins = 11
 solver = Normal
-Matrix Compiler1: 1.53 KB object code size  0.3/0.2/[0.1]
-Matrix Compiler2: 2.32 KB object code size  0.2/0.3/[0.2]
+Matrix Compiler1: 1.85 KB object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 2.73 KB object code size  0.2/0.3/[0.2]
 
