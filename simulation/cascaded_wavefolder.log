@@ -1,45 +1,49 @@
 Circuit: * C:\Users\noursec\Documents\personal projects\wavefolder\analog_wavefolder\simulation\cascaded_wavefolder.asc
 
-.OP point found by inspection.
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u4:1)
-Ignoring empty pin current: Ix(u4:2)
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u3:1)
-Ignoring empty pin current: Ix(u3:2)
-Ignoring empty pin current: Ix(u5:1)
-Ignoring empty pin current: Ix(u5:2)
-Ignoring empty pin current: Ix(u6:1)
-Ignoring empty pin current: Ix(u6:2)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u4:1)
-Ignoring empty pin current: Ix(u4:2)
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u3:1)
-Ignoring empty pin current: Ix(u3:2)
-Ignoring empty pin current: Ix(u5:1)
-Ignoring empty pin current: Ix(u5:2)
-Ignoring empty pin current: Ix(u6:1)
-Ignoring empty pin current: Ix(u6:2)
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 8.36601
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 8.23665
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
 
-Date: Wed Jul 27 12:23:09 2022
-Total elapsed time: 0.183 seconds.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Wed Jul 27 15:45:24 2022
+Total elapsed time: 4.055 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 4442
-traniter = 4442
-tranpoints = 1573
-accept = 1383
-rejected = 190
-matrix size = 37
-fillins = 11
+totiter = 14618
+traniter = 12944
+tranpoints = 4537
+accept = 3293
+rejected = 1244
+matrix size = 192
+fillins = 2622
 solver = Normal
-Matrix Compiler1: 1.85 KB object code size  0.3/0.2/[0.2]
-Matrix Compiler2: 2.73 KB object code size  0.2/0.3/[0.2]
+Thread vector: 16.6/11.5[4] 3.9/9.6[1] 12.4/6.0[4] 2.7/4.3[1]  2592/500
+Matrix Compiler1: 621.26 KB object code size  104.1/45.3/[20.4]
+Matrix Compiler2: 59.54 KB object code size  16.7/9.3/[7.2]
 
